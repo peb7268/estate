@@ -1,0 +1,20 @@
+{
+    "name": "peb7268/whoops",
+    "description": "Demo of how to use packages with composer in stand alone php apps",
+    "require": {
+        "filp/whoops": "*"
+    },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "raveren/kint": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Paul Barrick",
+            "email": "peb7268@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Impd\\" : "src/" }
+    }
+}
